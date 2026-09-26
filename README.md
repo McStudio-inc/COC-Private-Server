@@ -1,8 +1,6 @@
 # 🏰 Clash of Clans Private Server
 > Open-source private server emulator for Clash of Clans 10.322 (2018)
 
-![screen](./Screens/game.png)
-
 ![C#](https://img.shields.io/badge/C%23-.NET%20Core%203.1-purple?style=for-the-badge&logo=csharp)
 ![MySQL](https://img.shields.io/badge/MySQL-Database-blue?style=for-the-badge&logo=mysql)
 ![Platform](https://img.shields.io/badge/Platform-Windows-0078d7?style=for-the-badge&logo=windows)
@@ -12,6 +10,8 @@
 > 📢 **Join our community!** For development updates, support, and discussions — join our **[Discord Server](#)**.
 
 ---
+
+![screen](./Screens/game.png)
 
 ## ✨ Features
 
