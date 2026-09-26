@@ -12,6 +12,7 @@ Open source private server emulator for Clash of Clans 10.322 (2018) written in 
 ### Requirements
 - .NET Core 3.1
 - MySQL Server
+- Xampp
 
 ### Database
 1. Create a MySQL database
