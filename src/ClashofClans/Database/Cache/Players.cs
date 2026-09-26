@@ -18,7 +18,7 @@ namespace ClashofClans.Database.Cache
         {
             Player player;
 
-            if (userId <= 0 && string.IsNullOrEmpty(token))
+            if (userId <= 0 || string.IsNullOrEmpty(token))
             {
                 player = await PlayerDb.CreateAsync();
                 player.Home.Status = 1;

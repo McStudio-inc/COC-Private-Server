@@ -170,10 +170,13 @@ namespace ClashofClans.Logic.Manager.Items.GameObjects
 		}
 
 		public bool IsStraightWall => BuildingData.Name == "WallStraight";
+        public override int GetWidthInTiles() => BuildingData?.Width ?? 1;
+        public override int GetHeightInTiles() => BuildingData?.Height ?? 1;
+        public UnitUpgradeComponent UnitUpgradeComponent => TryGetComponent(9, out Component component) ? (UnitUpgradeComponent)component : null;
 
-		#region Json
+        #region Json
 
-		public override JObject Save()
+        public override JObject Save()
 		{
 			JObject jObject = base.Save();
 			jObject.Add("data", Data);

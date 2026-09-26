@@ -1,0 +1,14 @@
+C:\Users\User\Documents\CoS-10.322\src\ClashofClans.CsvConverter\bin\Debug\netcoreapp3.0\ClashofClans.CsvConverter.exe
+C:\Users\User\Documents\CoS-10.322\src\ClashofClans.CsvConverter\bin\Debug\netcoreapp3.0\ClashofClans.CsvConverter.deps.json
+C:\Users\User\Documents\CoS-10.322\src\ClashofClans.CsvConverter\bin\Debug\netcoreapp3.0\ClashofClans.CsvConverter.runtimeconfig.json
+C:\Users\User\Documents\CoS-10.322\src\ClashofClans.CsvConverter\bin\Debug\netcoreapp3.0\ClashofClans.CsvConverter.runtimeconfig.dev.json
+C:\Users\User\Documents\CoS-10.322\src\ClashofClans.CsvConverter\bin\Debug\netcoreapp3.0\ClashofClans.CsvConverter.dll
+C:\Users\User\Documents\CoS-10.322\src\ClashofClans.CsvConverter\bin\Debug\netcoreapp3.0\ClashofClans.CsvConverter.pdb
+C:\Users\User\Documents\CoS-10.322\src\ClashofClans.CsvConverter\obj\Debug\netcoreapp3.0\ClashofClans.CsvConverter.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Documents\CoS-10.322\src\ClashofClans.CsvConverter\obj\Debug\netcoreapp3.0\ClashofClans.CsvConverter.AssemblyInfoInputs.cache
+C:\Users\User\Documents\CoS-10.322\src\ClashofClans.CsvConverter\obj\Debug\netcoreapp3.0\ClashofClans.CsvConverter.AssemblyInfo.cs
+C:\Users\User\Documents\CoS-10.322\src\ClashofClans.CsvConverter\obj\Debug\netcoreapp3.0\ClashofClans.CsvConverter.csproj.CoreCompileInputs.cache
+C:\Users\User\Documents\CoS-10.322\src\ClashofClans.CsvConverter\obj\Debug\netcoreapp3.0\ClashofClans.CsvConverter.sourcelink.json
+C:\Users\User\Documents\CoS-10.322\src\ClashofClans.CsvConverter\obj\Debug\netcoreapp3.0\ClashofClans.CsvConverter.dll
+C:\Users\User\Documents\CoS-10.322\src\ClashofClans.CsvConverter\obj\Debug\netcoreapp3.0\ClashofClans.CsvConverter.pdb
+C:\Users\User\Documents\CoS-10.322\src\ClashofClans.CsvConverter\obj\Debug\netcoreapp3.0\ClashofClans.CsvConverter.genruntimeconfig.cache

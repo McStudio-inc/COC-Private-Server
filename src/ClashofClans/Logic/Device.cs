@@ -30,8 +30,11 @@ namespace ClashofClans.Logic
             var length = buffer.ReadMedium();
             var version = buffer.ReadUnsignedShort();
 
-            if (id < 10000 || id >= 20000) return;
-
+            if (id < 10000 || id >= 20000)
+            {
+                Logger.Log($"Packet ID {id} out of range, dropping.", GetType(), Logger.ErrorLevel.Debug);
+                return;
+            }
             if (!LogicMagicMessageFactory.Messages.ContainsKey(id))
             {
                 Logger.Log($"Message ID: {id}, V: {version}, L: {length} is not known.", GetType(),
@@ -62,7 +65,7 @@ namespace ClashofClans.Logic
                 var st = new Stopwatch();
                 st.Start();
 #endif
-
+                Logger.Log($"Processing packet {id}, CurrentState: {CurrentState}", GetType(), Logger.ErrorLevel.Debug);
                 message.Decode();
                 message.Process();
 

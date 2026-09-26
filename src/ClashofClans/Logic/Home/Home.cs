@@ -89,6 +89,13 @@ namespace ClashofClans.Logic.Home
         [JsonProperty("previousSeasonMonth")] public int PreviousSeasonMonth { get; set; }
         [JsonProperty("previousSeasonTrophies")] public int PreviousSeasonTrophies { get; set; }
         [JsonProperty("playerLabels")] public List<int> PlayerLabels = new List<int>();
+        [JsonProperty("accountBound")] public bool AccountBound { get; set; }
+        [JsonProperty("achievements")] public List<int> CompletedAchievements = new List<int>();
+        [JsonProperty("achievementProgress")] public Dictionary<int, int> AchievementProgress = new Dictionary<int, int>();
+        [JsonProperty("activeLayout")] public int ActiveLayout { get; set; }
+        [JsonProperty("layoutStates")] public int[] LayoutStates = new int[6];
+        [JsonProperty("allianceChatFilter")] public bool AllianceChatFilter { get; set; }
+        [JsonProperty("persistentBool0")] public bool PersistentBool0 { get; set; }
 
         [JsonIgnore]
         public long Id
@@ -101,6 +108,23 @@ namespace ClashofClans.Logic.Home
             }
         }
 
+        /// <summary>
+        ///     Set state dari layout tertentu (0 = disabled, 1 = enabled)
+        /// </summary>
+        public void SetLayoutState(int layoutId, int state)
+        {
+            if (layoutId < 0 || layoutId >= 6) return;
+            LayoutStates[layoutId] = state;
+        }
+
+        /// <summary>
+        ///     Get state dari layout tertentu
+        /// </summary>
+        public int GetLayoutState(int layoutId)
+        {
+            if (layoutId < 0 || layoutId >= 6) return 0;
+            return LayoutStates[layoutId];
+        }
         /// <summary>
         ///     Add's experience Points to the players account and increments the players level if available
         /// </summary>

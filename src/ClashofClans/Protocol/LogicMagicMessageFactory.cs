@@ -37,6 +37,7 @@ namespace ClashofClans.Protocol
                 {15718, typeof(AttackNpcMessage)},
                 {16203, typeof(DebugEventMessage)},
                 {17173, typeof(ChangeAvatarNameMessage)},
+                {14305, typeof(JoinAllianceMessage)},
             };
         }
     }

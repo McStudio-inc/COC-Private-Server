@@ -66,5 +66,10 @@ namespace ClashofClans.Utilities.Netty
             buffer.WriteBytes(Enumerable.Range(0, tmp.Length).Where(x => x % 2 == 0)
                 .Select(x => Convert.ToByte(tmp.Substring(x, 2), 16)).ToArray());
         }
+        public static void WriteLong(this IByteBuffer buffer, long value)
+        {
+            buffer.WriteInt((int)(value >> 32));
+            buffer.WriteInt((int)(value & 0xFFFFFFFFL));
+        }
     }
 }

@@ -1,0 +1,819 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\User\\Documents\\CoS-10.322\\src\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9D0CA4C8-4661-4D51-AE5D-5EDB16C9C796}|ClashofClans\\ClashofClans.csproj|c:\\users\\user\\documents\\cos-10.322\\src\\clashofclans\\logic\\manager\\items\\components\\unitupgradecomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D0CA4C8-4661-4D51-AE5D-5EDB16C9C796}|ClashofClans\\ClashofClans.csproj|solutionrelative:clashofclans\\logic\\manager\\items\\components\\unitupgradecomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D0CA4C8-4661-4D51-AE5D-5EDB16C9C796}|ClashofClans\\ClashofClans.csproj|c:\\users\\user\\documents\\cos-10.322\\src\\clashofclans\\logic\\manager\\items\\components\\resourceproductioncomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D0CA4C8-4661-4D51-AE5D-5EDB16C9C796}|ClashofClans\\ClashofClans.csproj|solutionrelative:clashofclans\\logic\\manager\\items\\components\\resourceproductioncomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D0CA4C8-4661-4D51-AE5D-5EDB16C9C796}|ClashofClans\\ClashofClans.csproj|c:\\users\\user\\documents\\cos-10.322\\src\\clashofclans\\logic\\manager\\items\\components\\resourcestoragecomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D0CA4C8-4661-4D51-AE5D-5EDB16C9C796}|ClashofClans\\ClashofClans.csproj|solutionrelative:clashofclans\\logic\\manager\\items\\components\\resourcestoragecomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D0CA4C8-4661-4D51-AE5D-5EDB16C9C796}|ClashofClans\\ClashofClans.csproj|c:\\users\\user\\documents\\cos-10.322\\src\\clashofclans\\protocol\\commands\\client\\logicspeedupupgradeunitcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D0CA4C8-4661-4D51-AE5D-5EDB16C9C796}|ClashofClans\\ClashofClans.csproj|solutionrelative:clashofclans\\protocol\\commands\\client\\logicspeedupupgradeunitcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D0CA4C8-4661-4D51-AE5D-5EDB16C9C796}|ClashofClans\\ClashofClans.csproj|c:\\users\\user\\documents\\cos-10.322\\src\\clashofclans\\logic\\manager\\items\\gameobjects\\building.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D0CA4C8-4661-4D51-AE5D-5EDB16C9C796}|ClashofClans\\ClashofClans.csproj|solutionrelative:clashofclans\\logic\\manager\\items\\gameobjects\\building.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D0CA4C8-4661-4D51-AE5D-5EDB16C9C796}|ClashofClans\\ClashofClans.csproj|c:\\users\\user\\documents\\cos-10.322\\src\\clashofclans\\files\\logic\\buildingclasses.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D0CA4C8-4661-4D51-AE5D-5EDB16C9C796}|ClashofClans\\ClashofClans.csproj|solutionrelative:clashofclans\\files\\logic\\buildingclasses.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D0CA4C8-4661-4D51-AE5D-5EDB16C9C796}|ClashofClans\\ClashofClans.csproj|c:\\users\\user\\documents\\cos-10.322\\src\\clashofclans\\files\\logic\\buildings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D0CA4C8-4661-4D51-AE5D-5EDB16C9C796}|ClashofClans\\ClashofClans.csproj|solutionrelative:clashofclans\\files\\logic\\buildings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D0CA4C8-4661-4D51-AE5D-5EDB16C9C796}|ClashofClans\\ClashofClans.csproj|c:\\users\\user\\documents\\cos-10.322\\src\\clashofclans\\protocol\\commands\\client\\logicspeeduptrainingcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D0CA4C8-4661-4D51-AE5D-5EDB16C9C796}|ClashofClans\\ClashofClans.csproj|solutionrelative:clashofclans\\protocol\\commands\\client\\logicspeeduptrainingcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D0CA4C8-4661-4D51-AE5D-5EDB16C9C796}|ClashofClans\\ClashofClans.csproj|c:\\users\\user\\documents\\cos-10.322\\src\\clashofclans\\protocol\\commands\\client\\logicfreeworkercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D0CA4C8-4661-4D51-AE5D-5EDB16C9C796}|ClashofClans\\ClashofClans.csproj|solutionrelative:clashofclans\\protocol\\commands\\client\\logicfreeworkercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D0CA4C8-4661-4D51-AE5D-5EDB16C9C796}|ClashofClans\\ClashofClans.csproj|c:\\users\\user\\documents\\cos-10.322\\src\\clashofclans\\extensions\\gameplayutil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D0CA4C8-4661-4D51-AE5D-5EDB16C9C796}|ClashofClans\\ClashofClans.csproj|solutionrelative:clashofclans\\extensions\\gameplayutil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D0CA4C8-4661-4D51-AE5D-5EDB16C9C796}|ClashofClans\\ClashofClans.csproj|c:\\users\\user\\documents\\cos-10.322\\src\\clashofclans\\protocol\\logiccommandmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D0CA4C8-4661-4D51-AE5D-5EDB16C9C796}|ClashofClans\\ClashofClans.csproj|solutionrelative:clashofclans\\protocol\\logiccommandmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D0CA4C8-4661-4D51-AE5D-5EDB16C9C796}|ClashofClans\\ClashofClans.csproj|c:\\users\\user\\documents\\cos-10.322\\src\\clashofclans\\logic\\home\\slots\\resourceslots.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D0CA4C8-4661-4D51-AE5D-5EDB16C9C796}|ClashofClans\\ClashofClans.csproj|solutionrelative:clashofclans\\logic\\home\\slots\\resourceslots.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D0CA4C8-4661-4D51-AE5D-5EDB16C9C796}|ClashofClans\\ClashofClans.csproj|c:\\users\\user\\documents\\cos-10.322\\src\\clashofclans\\logic\\home\\slots\\items\\dataslot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D0CA4C8-4661-4D51-AE5D-5EDB16C9C796}|ClashofClans\\ClashofClans.csproj|solutionrelative:clashofclans\\logic\\home\\slots\\items\\dataslot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D0CA4C8-4661-4D51-AE5D-5EDB16C9C796}|ClashofClans\\ClashofClans.csproj|c:\\users\\user\\documents\\cos-10.322\\src\\clashofclans\\logic\\manager\\items\\unit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D0CA4C8-4661-4D51-AE5D-5EDB16C9C796}|ClashofClans\\ClashofClans.csproj|solutionrelative:clashofclans\\logic\\manager\\items\\unit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D0CA4C8-4661-4D51-AE5D-5EDB16C9C796}|ClashofClans\\ClashofClans.csproj|c:\\users\\user\\documents\\cos-10.322\\src\\clashofclans\\logic\\manager\\componentmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D0CA4C8-4661-4D51-AE5D-5EDB16C9C796}|ClashofClans\\ClashofClans.csproj|solutionrelative:clashofclans\\logic\\manager\\componentmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D0CA4C8-4661-4D51-AE5D-5EDB16C9C796}|ClashofClans\\ClashofClans.csproj|c:\\users\\user\\documents\\cos-10.322\\src\\clashofclans\\logic\\manager\\gameobjectmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D0CA4C8-4661-4D51-AE5D-5EDB16C9C796}|ClashofClans\\ClashofClans.csproj|solutionrelative:clashofclans\\logic\\manager\\gameobjectmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F835EF1-3FC7-40A5-81C4-502071DBEB1F}|ClashofClans.Utilities\\ClashofClans.Utilities.csproj|c:\\users\\user\\documents\\cos-10.322\\src\\clashofclans.utilities\\logicrandom.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F835EF1-3FC7-40A5-81C4-502071DBEB1F}|ClashofClans.Utilities\\ClashofClans.Utilities.csproj|solutionrelative:clashofclans.utilities\\logicrandom.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D0CA4C8-4661-4D51-AE5D-5EDB16C9C796}|ClashofClans\\ClashofClans.csproj|c:\\users\\user\\documents\\cos-10.322\\src\\clashofclans\\protocol\\messages\\server\\globalchatlinemessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D0CA4C8-4661-4D51-AE5D-5EDB16C9C796}|ClashofClans\\ClashofClans.csproj|solutionrelative:clashofclans\\protocol\\messages\\server\\globalchatlinemessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D0CA4C8-4661-4D51-AE5D-5EDB16C9C796}|ClashofClans\\ClashofClans.csproj|c:\\users\\user\\documents\\cos-10.322\\src\\clashofclans\\protocol\\messages\\server\\home\\avatarprofilemessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D0CA4C8-4661-4D51-AE5D-5EDB16C9C796}|ClashofClans\\ClashofClans.csproj|solutionrelative:clashofclans\\protocol\\messages\\server\\home\\avatarprofilemessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D0CA4C8-4661-4D51-AE5D-5EDB16C9C796}|ClashofClans\\ClashofClans.csproj|c:\\users\\user\\documents\\cos-10.322\\src\\clashofclans\\protocol\\commands\\client\\logicattacknpccommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D0CA4C8-4661-4D51-AE5D-5EDB16C9C796}|ClashofClans\\ClashofClans.csproj|solutionrelative:clashofclans\\protocol\\commands\\client\\logicattacknpccommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D0CA4C8-4661-4D51-AE5D-5EDB16C9C796}|ClashofClans\\ClashofClans.csproj|c:\\users\\user\\documents\\cos-10.322\\src\\clashofclans\\logic\\manager\\logicglobalchatmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D0CA4C8-4661-4D51-AE5D-5EDB16C9C796}|ClashofClans\\ClashofClans.csproj|solutionrelative:clashofclans\\logic\\manager\\logicglobalchatmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D0CA4C8-4661-4D51-AE5D-5EDB16C9C796}|ClashofClans\\ClashofClans.csproj|c:\\users\\user\\documents\\cos-10.322\\src\\clashofclans\\logic\\manager\\heroesmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D0CA4C8-4661-4D51-AE5D-5EDB16C9C796}|ClashofClans\\ClashofClans.csproj|solutionrelative:clashofclans\\logic\\manager\\heroesmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D0CA4C8-4661-4D51-AE5D-5EDB16C9C796}|ClashofClans\\ClashofClans.csproj|c:\\users\\user\\documents\\cos-10.322\\src\\clashofclans\\logic\\manager\\items\\component.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D0CA4C8-4661-4D51-AE5D-5EDB16C9C796}|ClashofClans\\ClashofClans.csproj|solutionrelative:clashofclans\\logic\\manager\\items\\component.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D0CA4C8-4661-4D51-AE5D-5EDB16C9C796}|ClashofClans\\ClashofClans.csproj|c:\\users\\user\\documents\\cos-10.322\\src\\clashofclans\\protocol\\commands\\client\\logicboosttrainingcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D0CA4C8-4661-4D51-AE5D-5EDB16C9C796}|ClashofClans\\ClashofClans.csproj|solutionrelative:clashofclans\\protocol\\commands\\client\\logicboosttrainingcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D0CA4C8-4661-4D51-AE5D-5EDB16C9C796}|ClashofClans\\ClashofClans.csproj|c:\\users\\user\\documents\\cos-10.322\\src\\clashofclans\\logic\\home\\home.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D0CA4C8-4661-4D51-AE5D-5EDB16C9C796}|ClashofClans\\ClashofClans.csproj|solutionrelative:clashofclans\\logic\\home\\home.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D0CA4C8-4661-4D51-AE5D-5EDB16C9C796}|ClashofClans\\ClashofClans.csproj|c:\\users\\user\\documents\\cos-10.322\\src\\clashofclans\\protocol\\commands\\client\\logicsetpersistentboolcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D0CA4C8-4661-4D51-AE5D-5EDB16C9C796}|ClashofClans\\ClashofClans.csproj|solutionrelative:clashofclans\\protocol\\commands\\client\\logicsetpersistentboolcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D0CA4C8-4661-4D51-AE5D-5EDB16C9C796}|ClashofClans\\ClashofClans.csproj|c:\\users\\user\\documents\\cos-10.322\\src\\clashofclans\\protocol\\commands\\client\\logicchangealliancechatfiltercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D0CA4C8-4661-4D51-AE5D-5EDB16C9C796}|ClashofClans\\ClashofClans.csproj|solutionrelative:clashofclans\\protocol\\commands\\client\\logicchangealliancechatfiltercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D0CA4C8-4661-4D51-AE5D-5EDB16C9C796}|ClashofClans\\ClashofClans.csproj|c:\\users\\user\\documents\\cos-10.322\\src\\clashofclans\\protocol\\commands\\client\\logicboostbuildingcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D0CA4C8-4661-4D51-AE5D-5EDB16C9C796}|ClashofClans\\ClashofClans.csproj|solutionrelative:clashofclans\\protocol\\commands\\client\\logicboostbuildingcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D0CA4C8-4661-4D51-AE5D-5EDB16C9C796}|ClashofClans\\ClashofClans.csproj|c:\\users\\user\\documents\\cos-10.322\\src\\clashofclans\\protocol\\logiccommandtype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D0CA4C8-4661-4D51-AE5D-5EDB16C9C796}|ClashofClans\\ClashofClans.csproj|solutionrelative:clashofclans\\protocol\\logiccommandtype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D0CA4C8-4661-4D51-AE5D-5EDB16C9C796}|ClashofClans\\ClashofClans.csproj|c:\\users\\user\\documents\\cos-10.322\\src\\clashofclans\\logic\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D0CA4C8-4661-4D51-AE5D-5EDB16C9C796}|ClashofClans\\ClashofClans.csproj|solutionrelative:clashofclans\\logic\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D0CA4C8-4661-4D51-AE5D-5EDB16C9C796}|ClashofClans\\ClashofClans.csproj|c:\\users\\user\\documents\\cos-10.322\\src\\clashofclans\\database\\playerdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D0CA4C8-4661-4D51-AE5D-5EDB16C9C796}|ClashofClans\\ClashofClans.csproj|solutionrelative:clashofclans\\database\\playerdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D0CA4C8-4661-4D51-AE5D-5EDB16C9C796}|ClashofClans\\ClashofClans.csproj|c:\\users\\user\\documents\\cos-10.322\\src\\clashofclans\\database\\cache\\players.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D0CA4C8-4661-4D51-AE5D-5EDB16C9C796}|ClashofClans\\ClashofClans.csproj|solutionrelative:clashofclans\\database\\cache\\players.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D0CA4C8-4661-4D51-AE5D-5EDB16C9C796}|ClashofClans\\ClashofClans.csproj|c:\\users\\user\\documents\\cos-10.322\\src\\clashofclans\\protocol\\commands\\client\\logicchangelayoutcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D0CA4C8-4661-4D51-AE5D-5EDB16C9C796}|ClashofClans\\ClashofClans.csproj|solutionrelative:clashofclans\\protocol\\commands\\client\\logicchangelayoutcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D0CA4C8-4661-4D51-AE5D-5EDB16C9C796}|ClashofClans\\ClashofClans.csproj|c:\\users\\user\\documents\\cos-10.322\\src\\clashofclans\\protocol\\commands\\client\\logicmovemultiplebuildingseditmodecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D0CA4C8-4661-4D51-AE5D-5EDB16C9C796}|ClashofClans\\ClashofClans.csproj|solutionrelative:clashofclans\\protocol\\commands\\client\\logicmovemultiplebuildingseditmodecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D0CA4C8-4661-4D51-AE5D-5EDB16C9C796}|ClashofClans\\ClashofClans.csproj|c:\\users\\user\\documents\\cos-10.322\\src\\clashofclans\\protocol\\commands\\client\\logicsavebaselayoutcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D0CA4C8-4661-4D51-AE5D-5EDB16C9C796}|ClashofClans\\ClashofClans.csproj|solutionrelative:clashofclans\\protocol\\commands\\client\\logicsavebaselayoutcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D0CA4C8-4661-4D51-AE5D-5EDB16C9C796}|ClashofClans\\ClashofClans.csproj|c:\\users\\user\\documents\\cos-10.322\\src\\clashofclans\\protocol\\commands\\client\\logicmovebuildingcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D0CA4C8-4661-4D51-AE5D-5EDB16C9C796}|ClashofClans\\ClashofClans.csproj|solutionrelative:clashofclans\\protocol\\commands\\client\\logicmovebuildingcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D0CA4C8-4661-4D51-AE5D-5EDB16C9C796}|ClashofClans\\ClashofClans.csproj|c:\\users\\user\\documents\\cos-10.322\\src\\clashofclans\\protocol\\commands\\client\\logicmovebuildingeditmodecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D0CA4C8-4661-4D51-AE5D-5EDB16C9C796}|ClashofClans\\ClashofClans.csproj|solutionrelative:clashofclans\\protocol\\commands\\client\\logicmovebuildingeditmodecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D0CA4C8-4661-4D51-AE5D-5EDB16C9C796}|ClashofClans\\ClashofClans.csproj|c:\\users\\user\\documents\\cos-10.322\\src\\clashofclans\\protocol\\commands\\client\\logicsetlayoutstatecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D0CA4C8-4661-4D51-AE5D-5EDB16C9C796}|ClashofClans\\ClashofClans.csproj|solutionrelative:clashofclans\\protocol\\commands\\client\\logicsetlayoutstatecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D0CA4C8-4661-4D51-AE5D-5EDB16C9C796}|ClashofClans\\ClashofClans.csproj|c:\\users\\user\\documents\\cos-10.322\\src\\clashofclans\\logic\\manager\\items\\gameobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D0CA4C8-4661-4D51-AE5D-5EDB16C9C796}|ClashofClans\\ClashofClans.csproj|solutionrelative:clashofclans\\logic\\manager\\items\\gameobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D0CA4C8-4661-4D51-AE5D-5EDB16C9C796}|ClashofClans\\ClashofClans.csproj|c:\\users\\user\\documents\\cos-10.322\\src\\clashofclans\\logic\\manager\\items\\gameobjects\\villageobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D0CA4C8-4661-4D51-AE5D-5EDB16C9C796}|ClashofClans\\ClashofClans.csproj|solutionrelative:clashofclans\\logic\\manager\\items\\gameobjects\\villageobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D0CA4C8-4661-4D51-AE5D-5EDB16C9C796}|ClashofClans\\ClashofClans.csproj|c:\\users\\user\\documents\\cos-10.322\\src\\clashofclans\\protocol\\messages\\server\\shutdownstartedmessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D0CA4C8-4661-4D51-AE5D-5EDB16C9C796}|ClashofClans\\ClashofClans.csproj|solutionrelative:clashofclans\\protocol\\messages\\server\\shutdownstartedmessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D0CA4C8-4661-4D51-AE5D-5EDB16C9C796}|ClashofClans\\ClashofClans.csproj|c:\\users\\user\\documents\\cos-10.322\\src\\clashofclans\\protocol\\messages\\server\\disconnectedmessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D0CA4C8-4661-4D51-AE5D-5EDB16C9C796}|ClashofClans\\ClashofClans.csproj|solutionrelative:clashofclans\\protocol\\messages\\server\\disconnectedmessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D0CA4C8-4661-4D51-AE5D-5EDB16C9C796}|ClashofClans\\ClashofClans.csproj|c:\\users\\user\\documents\\cos-10.322\\src\\clashofclans\\protocol\\commands\\client\\logicswitchvillagestatecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D0CA4C8-4661-4D51-AE5D-5EDB16C9C796}|ClashofClans\\ClashofClans.csproj|solutionrelative:clashofclans\\protocol\\commands\\client\\logicswitchvillagestatecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D0CA4C8-4661-4D51-AE5D-5EDB16C9C796}|ClashofClans\\ClashofClans.csproj|c:\\users\\user\\documents\\cos-10.322\\src\\clashofclans\\logic\\clan\\alliance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D0CA4C8-4661-4D51-AE5D-5EDB16C9C796}|ClashofClans\\ClashofClans.csproj|solutionrelative:clashofclans\\logic\\clan\\alliance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D0CA4C8-4661-4D51-AE5D-5EDB16C9C796}|ClashofClans\\ClashofClans.csproj|c:\\users\\user\\documents\\cos-10.322\\src\\clashofclans\\files\\levels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D0CA4C8-4661-4D51-AE5D-5EDB16C9C796}|ClashofClans\\ClashofClans.csproj|solutionrelative:clashofclans\\files\\levels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D0CA4C8-4661-4D51-AE5D-5EDB16C9C796}|ClashofClans\\ClashofClans.csproj|c:\\users\\user\\documents\\cos-10.322\\src\\clashofclans\\protocol\\messages\\client\\home\\attacknpcmessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D0CA4C8-4661-4D51-AE5D-5EDB16C9C796}|ClashofClans\\ClashofClans.csproj|solutionrelative:clashofclans\\protocol\\messages\\client\\home\\attacknpcmessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D0CA4C8-4661-4D51-AE5D-5EDB16C9C796}|ClashofClans\\ClashofClans.csproj|c:\\users\\user\\documents\\cos-10.322\\src\\clashofclans\\protocol\\messages\\client\\home\\visithomemessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D0CA4C8-4661-4D51-AE5D-5EDB16C9C796}|ClashofClans\\ClashofClans.csproj|solutionrelative:clashofclans\\protocol\\messages\\client\\home\\visithomemessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "LogicSpeedUpUpgradeUnitCommand.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\CoS-10.322\\src\\ClashofClans\\Protocol\\Commands\\Client\\LogicSpeedUpUpgradeUnitCommand.cs",
+              "RelativeDocumentMoniker": "ClashofClans\\Protocol\\Commands\\Client\\LogicSpeedUpUpgradeUnitCommand.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\CoS-10.322\\src\\ClashofClans\\Protocol\\Commands\\Client\\LogicSpeedUpUpgradeUnitCommand.cs",
+              "RelativeToolTip": "ClashofClans\\Protocol\\Commands\\Client\\LogicSpeedUpUpgradeUnitCommand.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAWwBcAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-26T13:08:38.034Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Building.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\CoS-10.322\\src\\ClashofClans\\Logic\\Manager\\Items\\GameObjects\\Building.cs",
+              "RelativeDocumentMoniker": "ClashofClans\\Logic\\Manager\\Items\\GameObjects\\Building.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\CoS-10.322\\src\\ClashofClans\\Logic\\Manager\\Items\\GameObjects\\Building.cs",
+              "RelativeToolTip": "ClashofClans\\Logic\\Manager\\Items\\GameObjects\\Building.cs",
+              "ViewState": "AgIAAJoAAAAAAAAAAAAmwK4AAAB/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-26T09:40:28.76Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UnitUpgradeComponent.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\CoS-10.322\\src\\ClashofClans\\Logic\\Manager\\Items\\Components\\UnitUpgradeComponent.cs",
+              "RelativeDocumentMoniker": "ClashofClans\\Logic\\Manager\\Items\\Components\\UnitUpgradeComponent.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\CoS-10.322\\src\\ClashofClans\\Logic\\Manager\\Items\\Components\\UnitUpgradeComponent.cs",
+              "RelativeToolTip": "ClashofClans\\Logic\\Manager\\Items\\Components\\UnitUpgradeComponent.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAxwA8AAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-26T13:05:31.491Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ResourceStorageComponent.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\CoS-10.322\\src\\ClashofClans\\Logic\\Manager\\Items\\Components\\ResourceStorageComponent.cs",
+              "RelativeDocumentMoniker": "ClashofClans\\Logic\\Manager\\Items\\Components\\ResourceStorageComponent.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\CoS-10.322\\src\\ClashofClans\\Logic\\Manager\\Items\\Components\\ResourceStorageComponent.cs",
+              "RelativeToolTip": "ClashofClans\\Logic\\Manager\\Items\\Components\\ResourceStorageComponent.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAA8wCMAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-26T13:05:45.142Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ResourceProductionComponent.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\CoS-10.322\\src\\ClashofClans\\Logic\\Manager\\Items\\Components\\ResourceProductionComponent.cs",
+              "RelativeDocumentMoniker": "ClashofClans\\Logic\\Manager\\Items\\Components\\ResourceProductionComponent.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\CoS-10.322\\src\\ClashofClans\\Logic\\Manager\\Items\\Components\\ResourceProductionComponent.cs",
+              "RelativeToolTip": "ClashofClans\\Logic\\Manager\\Items\\Components\\ResourceProductionComponent.cs",
+              "ViewState": "AgIAAFkAAAAAAAAAAAAAwGgAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-26T13:05:39.446Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "BuildingClasses.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\CoS-10.322\\src\\ClashofClans\\Files\\Logic\\BuildingClasses.cs",
+              "RelativeDocumentMoniker": "ClashofClans\\Files\\Logic\\BuildingClasses.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\CoS-10.322\\src\\ClashofClans\\Files\\Logic\\BuildingClasses.cs",
+              "RelativeToolTip": "ClashofClans\\Files\\Logic\\BuildingClasses.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAowBUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-26T09:40:19.612Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Buildings.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\CoS-10.322\\src\\ClashofClans\\Files\\Logic\\Buildings.cs",
+              "RelativeDocumentMoniker": "ClashofClans\\Files\\Logic\\Buildings.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\CoS-10.322\\src\\ClashofClans\\Files\\Logic\\Buildings.cs",
+              "RelativeToolTip": "ClashofClans\\Files\\Logic\\Buildings.cs",
+              "ViewState": "AgIAALQBAAAAAAAAAAAcwMoBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-26T09:40:05.361Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "LogicSpeedUpTrainingCommand.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\CoS-10.322\\src\\ClashofClans\\Protocol\\Commands\\Client\\LogicSpeedUpTrainingCommand.cs",
+              "RelativeDocumentMoniker": "ClashofClans\\Protocol\\Commands\\Client\\LogicSpeedUpTrainingCommand.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\CoS-10.322\\src\\ClashofClans\\Protocol\\Commands\\Client\\LogicSpeedUpTrainingCommand.cs",
+              "RelativeToolTip": "ClashofClans\\Protocol\\Commands\\Client\\LogicSpeedUpTrainingCommand.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAowBgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-26T13:07:59.508Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "LogicFreeWorkerCommand.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\CoS-10.322\\src\\ClashofClans\\Protocol\\Commands\\Client\\LogicFreeWorkerCommand.cs",
+              "RelativeDocumentMoniker": "ClashofClans\\Protocol\\Commands\\Client\\LogicFreeWorkerCommand.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\CoS-10.322\\src\\ClashofClans\\Protocol\\Commands\\Client\\LogicFreeWorkerCommand.cs",
+              "RelativeToolTip": "ClashofClans\\Protocol\\Commands\\Client\\LogicFreeWorkerCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-26T13:19:36.854Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "GamePlayUtil.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\CoS-10.322\\src\\ClashofClans\\Extensions\\GamePlayUtil.cs",
+              "RelativeDocumentMoniker": "ClashofClans\\Extensions\\GamePlayUtil.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\CoS-10.322\\src\\ClashofClans\\Extensions\\GamePlayUtil.cs",
+              "RelativeToolTip": "ClashofClans\\Extensions\\GamePlayUtil.cs",
+              "ViewState": "AgIAAJQAAAAAAAAAAAAAALsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-26T09:29:54.31Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "LogicCommandManager.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\CoS-10.322\\src\\ClashofClans\\Protocol\\LogicCommandManager.cs",
+              "RelativeDocumentMoniker": "ClashofClans\\Protocol\\LogicCommandManager.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\CoS-10.322\\src\\ClashofClans\\Protocol\\LogicCommandManager.cs",
+              "RelativeToolTip": "ClashofClans\\Protocol\\LogicCommandManager.cs",
+              "ViewState": "AgIAADEAAAAAAAAAAAArwFkAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-26T09:32:44.296Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ResourceSlots.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\CoS-10.322\\src\\ClashofClans\\Logic\\Home\\Slots\\ResourceSlots.cs",
+              "RelativeDocumentMoniker": "ClashofClans\\Logic\\Home\\Slots\\ResourceSlots.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\CoS-10.322\\src\\ClashofClans\\Logic\\Home\\Slots\\ResourceSlots.cs",
+              "RelativeToolTip": "ClashofClans\\Logic\\Home\\Slots\\ResourceSlots.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAwB4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-26T13:10:29.004Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "DataSlot.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\CoS-10.322\\src\\ClashofClans\\Logic\\Home\\Slots\\Items\\DataSlot.cs",
+              "RelativeDocumentMoniker": "ClashofClans\\Logic\\Home\\Slots\\Items\\DataSlot.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\CoS-10.322\\src\\ClashofClans\\Logic\\Home\\Slots\\Items\\DataSlot.cs",
+              "RelativeToolTip": "ClashofClans\\Logic\\Home\\Slots\\Items\\DataSlot.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-26T13:10:20.062Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ComponentManager.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\CoS-10.322\\src\\ClashofClans\\Logic\\Manager\\ComponentManager.cs",
+              "RelativeDocumentMoniker": "ClashofClans\\Logic\\Manager\\ComponentManager.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\CoS-10.322\\src\\ClashofClans\\Logic\\Manager\\ComponentManager.cs",
+              "RelativeToolTip": "ClashofClans\\Logic\\Manager\\ComponentManager.cs",
+              "ViewState": "AgIAAFAAAAAAAAAAAAA8wAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-26T13:09:57.14Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "LogicRandom.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\CoS-10.322\\src\\ClashofClans.Utilities\\LogicRandom.cs",
+              "RelativeDocumentMoniker": "ClashofClans.Utilities\\LogicRandom.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\CoS-10.322\\src\\ClashofClans.Utilities\\LogicRandom.cs",
+              "RelativeToolTip": "ClashofClans.Utilities\\LogicRandom.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-26T13:09:38.457Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "GlobalChatLineMessage.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\CoS-10.322\\src\\ClashofClans\\Protocol\\Messages\\Server\\GlobalChatLineMessage.cs",
+              "RelativeDocumentMoniker": "ClashofClans\\Protocol\\Messages\\Server\\GlobalChatLineMessage.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\CoS-10.322\\src\\ClashofClans\\Protocol\\Messages\\Server\\GlobalChatLineMessage.cs",
+              "RelativeToolTip": "ClashofClans\\Protocol\\Messages\\Server\\GlobalChatLineMessage.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAA0wAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-26T13:09:16.958Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "AvatarProfileMessage.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\CoS-10.322\\src\\ClashofClans\\Protocol\\Messages\\Server\\Home\\AvatarProfileMessage.cs",
+              "RelativeDocumentMoniker": "ClashofClans\\Protocol\\Messages\\Server\\Home\\AvatarProfileMessage.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\CoS-10.322\\src\\ClashofClans\\Protocol\\Messages\\Server\\Home\\AvatarProfileMessage.cs",
+              "RelativeToolTip": "ClashofClans\\Protocol\\Messages\\Server\\Home\\AvatarProfileMessage.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAwwBEAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-26T13:09:07.915Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Unit.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\CoS-10.322\\src\\ClashofClans\\Logic\\Manager\\Items\\Unit.cs",
+              "RelativeDocumentMoniker": "ClashofClans\\Logic\\Manager\\Items\\Unit.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\CoS-10.322\\src\\ClashofClans\\Logic\\Manager\\Items\\Unit.cs",
+              "RelativeToolTip": "ClashofClans\\Logic\\Manager\\Items\\Unit.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-26T13:05:54.59Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "GameObjectManager.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\CoS-10.322\\src\\ClashofClans\\Logic\\Manager\\GameObjectManager.cs",
+              "RelativeDocumentMoniker": "ClashofClans\\Logic\\Manager\\GameObjectManager.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\CoS-10.322\\src\\ClashofClans\\Logic\\Manager\\GameObjectManager.cs",
+              "RelativeToolTip": "ClashofClans\\Logic\\Manager\\GameObjectManager.cs",
+              "ViewState": "AgIAAIIAAAAAAAAAAAAYwJMAAABdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-26T09:30:24.359Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "LogicAttackNpcCommand.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\CoS-10.322\\src\\ClashofClans\\Protocol\\Commands\\Client\\LogicAttackNpcCommand.cs",
+              "RelativeDocumentMoniker": "ClashofClans\\Protocol\\Commands\\Client\\LogicAttackNpcCommand.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\CoS-10.322\\src\\ClashofClans\\Protocol\\Commands\\Client\\LogicAttackNpcCommand.cs",
+              "RelativeToolTip": "ClashofClans\\Protocol\\Commands\\Client\\LogicAttackNpcCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-26T13:07:37.372Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "LogicGlobalChatManager.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\CoS-10.322\\src\\ClashofClans\\Logic\\Manager\\LogicGlobalChatManager.cs",
+              "RelativeDocumentMoniker": "ClashofClans\\Logic\\Manager\\LogicGlobalChatManager.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\CoS-10.322\\src\\ClashofClans\\Logic\\Manager\\LogicGlobalChatManager.cs",
+              "RelativeToolTip": "ClashofClans\\Logic\\Manager\\LogicGlobalChatManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-26T13:07:25.056Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "HeroesManager.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\CoS-10.322\\src\\ClashofClans\\Logic\\Manager\\HeroesManager.cs",
+              "RelativeDocumentMoniker": "ClashofClans\\Logic\\Manager\\HeroesManager.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\CoS-10.322\\src\\ClashofClans\\Logic\\Manager\\HeroesManager.cs",
+              "RelativeToolTip": "ClashofClans\\Logic\\Manager\\HeroesManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-26T13:07:21.922Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Component.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\CoS-10.322\\src\\ClashofClans\\Logic\\Manager\\Items\\Component.cs",
+              "RelativeDocumentMoniker": "ClashofClans\\Logic\\Manager\\Items\\Component.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\CoS-10.322\\src\\ClashofClans\\Logic\\Manager\\Items\\Component.cs",
+              "RelativeToolTip": "ClashofClans\\Logic\\Manager\\Items\\Component.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAIwB8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-26T13:06:04.582Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "LogicBoostTrainingCommand.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\CoS-10.322\\src\\ClashofClans\\Protocol\\Commands\\Client\\LogicBoostTrainingCommand.cs",
+              "RelativeDocumentMoniker": "ClashofClans\\Protocol\\Commands\\Client\\LogicBoostTrainingCommand.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\CoS-10.322\\src\\ClashofClans\\Protocol\\Commands\\Client\\LogicBoostTrainingCommand.cs",
+              "RelativeToolTip": "ClashofClans\\Protocol\\Commands\\Client\\LogicBoostTrainingCommand.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-26T13:04:40.769Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "LogicSetPersistentBoolCommand.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\CoS-10.322\\src\\ClashofClans\\Protocol\\Commands\\Client\\LogicSetPersistentBoolCommand.cs",
+              "RelativeDocumentMoniker": "ClashofClans\\Protocol\\Commands\\Client\\LogicSetPersistentBoolCommand.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\CoS-10.322\\src\\ClashofClans\\Protocol\\Commands\\Client\\LogicSetPersistentBoolCommand.cs",
+              "RelativeToolTip": "ClashofClans\\Protocol\\Commands\\Client\\LogicSetPersistentBoolCommand.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAIwBkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-26T13:02:56.097Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "LogicChangeAllianceChatFilterCommand.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\CoS-10.322\\src\\ClashofClans\\Protocol\\Commands\\Client\\LogicChangeAllianceChatFilterCommand.cs",
+              "RelativeDocumentMoniker": "ClashofClans\\Protocol\\Commands\\Client\\LogicChangeAllianceChatFilterCommand.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\CoS-10.322\\src\\ClashofClans\\Protocol\\Commands\\Client\\LogicChangeAllianceChatFilterCommand.cs",
+              "RelativeToolTip": "ClashofClans\\Protocol\\Commands\\Client\\LogicChangeAllianceChatFilterCommand.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAxwBYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-26T13:00:10.693Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "LogicBoostBuildingCommand.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\CoS-10.322\\src\\ClashofClans\\Protocol\\Commands\\Client\\LogicBoostBuildingCommand.cs",
+              "RelativeDocumentMoniker": "ClashofClans\\Protocol\\Commands\\Client\\LogicBoostBuildingCommand.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\CoS-10.322\\src\\ClashofClans\\Protocol\\Commands\\Client\\LogicBoostBuildingCommand.cs",
+              "RelativeToolTip": "ClashofClans\\Protocol\\Commands\\Client\\LogicBoostBuildingCommand.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAwCcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-26T12:58:58.817Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "PlayerDb.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\CoS-10.322\\src\\ClashofClans\\Database\\PlayerDb.cs",
+              "RelativeDocumentMoniker": "ClashofClans\\Database\\PlayerDb.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\CoS-10.322\\src\\ClashofClans\\Database\\PlayerDb.cs",
+              "RelativeToolTip": "ClashofClans\\Database\\PlayerDb.cs",
+              "ViewState": "AgIAABUBAAAAAAAAAAAAwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-26T10:21:16.406Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Player.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\CoS-10.322\\src\\ClashofClans\\Logic\\Player.cs",
+              "RelativeDocumentMoniker": "ClashofClans\\Logic\\Player.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\CoS-10.322\\src\\ClashofClans\\Logic\\Player.cs",
+              "RelativeToolTip": "ClashofClans\\Logic\\Player.cs",
+              "ViewState": "AgIAAJ0BAAAAAAAAAAAswLYBAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-26T10:20:26.976Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Home.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\CoS-10.322\\src\\ClashofClans\\Logic\\Home\\Home.cs",
+              "RelativeDocumentMoniker": "ClashofClans\\Logic\\Home\\Home.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\CoS-10.322\\src\\ClashofClans\\Logic\\Home\\Home.cs",
+              "RelativeToolTip": "ClashofClans\\Logic\\Home\\Home.cs",
+              "ViewState": "AgIAAFYAAAAAAAAAAAAowGcAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-26T09:29:35.235Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "Players.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\CoS-10.322\\src\\ClashofClans\\Database\\Cache\\Players.cs",
+              "RelativeDocumentMoniker": "ClashofClans\\Database\\Cache\\Players.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\CoS-10.322\\src\\ClashofClans\\Database\\Cache\\Players.cs",
+              "RelativeToolTip": "ClashofClans\\Database\\Cache\\Players.cs",
+              "ViewState": "AgIAAFQAAAAAAAAAAAAowAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-26T10:20:22.333Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "LogicMoveBuildingEditModeCommand.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\CoS-10.322\\src\\ClashofClans\\Protocol\\Commands\\Client\\LogicMoveBuildingEditModeCommand.cs",
+              "RelativeDocumentMoniker": "ClashofClans\\Protocol\\Commands\\Client\\LogicMoveBuildingEditModeCommand.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\CoS-10.322\\src\\ClashofClans\\Protocol\\Commands\\Client\\LogicMoveBuildingEditModeCommand.cs",
+              "RelativeToolTip": "ClashofClans\\Protocol\\Commands\\Client\\LogicMoveBuildingEditModeCommand.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAkwDYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-26T09:36:06.136Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "LogicCommandType.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\CoS-10.322\\src\\ClashofClans\\Protocol\\LogicCommandType.cs",
+              "RelativeDocumentMoniker": "ClashofClans\\Protocol\\LogicCommandType.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\CoS-10.322\\src\\ClashofClans\\Protocol\\LogicCommandType.cs",
+              "RelativeToolTip": "ClashofClans\\Protocol\\LogicCommandType.cs",
+              "ViewState": "AgIAAD8AAAAAAAAAAAArwE0AAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-26T09:32:20.657Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "LogicMoveBuildingCommand.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\CoS-10.322\\src\\ClashofClans\\Protocol\\Commands\\Client\\LogicMoveBuildingCommand.cs",
+              "RelativeDocumentMoniker": "ClashofClans\\Protocol\\Commands\\Client\\LogicMoveBuildingCommand.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\CoS-10.322\\src\\ClashofClans\\Protocol\\Commands\\Client\\LogicMoveBuildingCommand.cs",
+              "RelativeToolTip": "ClashofClans\\Protocol\\Commands\\Client\\LogicMoveBuildingCommand.cs",
+              "ViewState": "AgIAADYAAAAAAAAAAAAkwDkAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-26T09:40:44Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "LogicMoveMultipleBuildingsEditModeCommand.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\CoS-10.322\\src\\ClashofClans\\Protocol\\Commands\\Client\\LogicMoveMultipleBuildingsEditModeCommand.cs",
+              "RelativeDocumentMoniker": "ClashofClans\\Protocol\\Commands\\Client\\LogicMoveMultipleBuildingsEditModeCommand.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\CoS-10.322\\src\\ClashofClans\\Protocol\\Commands\\Client\\LogicMoveMultipleBuildingsEditModeCommand.cs",
+              "RelativeToolTip": "ClashofClans\\Protocol\\Commands\\Client\\LogicMoveMultipleBuildingsEditModeCommand.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAAkwC8AAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-26T09:37:22.902Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "LogicChangeLayoutCommand.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\CoS-10.322\\src\\ClashofClans\\Protocol\\Commands\\Client\\LogicChangeLayoutCommand.cs",
+              "RelativeDocumentMoniker": "ClashofClans\\Protocol\\Commands\\Client\\LogicChangeLayoutCommand.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\CoS-10.322\\src\\ClashofClans\\Protocol\\Commands\\Client\\LogicChangeLayoutCommand.cs",
+              "RelativeToolTip": "ClashofClans\\Protocol\\Commands\\Client\\LogicChangeLayoutCommand.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAwwEQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-26T09:38:14.062Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "LogicSaveBaseLayoutCommand.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\CoS-10.322\\src\\ClashofClans\\Protocol\\Commands\\Client\\LogicSaveBaseLayoutCommand.cs",
+              "RelativeDocumentMoniker": "ClashofClans\\Protocol\\Commands\\Client\\LogicSaveBaseLayoutCommand.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\CoS-10.322\\src\\ClashofClans\\Protocol\\Commands\\Client\\LogicSaveBaseLayoutCommand.cs",
+              "RelativeToolTip": "ClashofClans\\Protocol\\Commands\\Client\\LogicSaveBaseLayoutCommand.cs",
+              "ViewState": "AgIAADoAAAAAAAAAAAAcwEwAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-26T09:37:47.56Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "VillageObject.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\CoS-10.322\\src\\ClashofClans\\Logic\\Manager\\Items\\GameObjects\\VillageObject.cs",
+              "RelativeDocumentMoniker": "ClashofClans\\Logic\\Manager\\Items\\GameObjects\\VillageObject.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\CoS-10.322\\src\\ClashofClans\\Logic\\Manager\\Items\\GameObjects\\VillageObject.cs",
+              "RelativeToolTip": "ClashofClans\\Logic\\Manager\\Items\\GameObjects\\VillageObject.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-26T09:34:01.534Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "GameObject.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\CoS-10.322\\src\\ClashofClans\\Logic\\Manager\\Items\\GameObject.cs",
+              "RelativeDocumentMoniker": "ClashofClans\\Logic\\Manager\\Items\\GameObject.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\CoS-10.322\\src\\ClashofClans\\Logic\\Manager\\Items\\GameObject.cs",
+              "RelativeToolTip": "ClashofClans\\Logic\\Manager\\Items\\GameObject.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-26T09:33:49.939Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "ShutdownStartedMessage.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\CoS-10.322\\src\\ClashofClans\\Protocol\\Messages\\Server\\ShutdownStartedMessage.cs",
+              "RelativeDocumentMoniker": "ClashofClans\\Protocol\\Messages\\Server\\ShutdownStartedMessage.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\CoS-10.322\\src\\ClashofClans\\Protocol\\Messages\\Server\\ShutdownStartedMessage.cs",
+              "RelativeToolTip": "ClashofClans\\Protocol\\Messages\\Server\\ShutdownStartedMessage.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-26T09:32:41.068Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "DisconnectedMessage.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\CoS-10.322\\src\\ClashofClans\\Protocol\\Messages\\Server\\DisconnectedMessage.cs",
+              "RelativeDocumentMoniker": "ClashofClans\\Protocol\\Messages\\Server\\DisconnectedMessage.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\CoS-10.322\\src\\ClashofClans\\Protocol\\Messages\\Server\\DisconnectedMessage.cs",
+              "RelativeToolTip": "ClashofClans\\Protocol\\Messages\\Server\\DisconnectedMessage.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-26T09:32:38.47Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "LogicSwitchVillageStateCommand.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\CoS-10.322\\src\\ClashofClans\\Protocol\\Commands\\Client\\LogicSwitchVillageStateCommand.cs",
+              "RelativeDocumentMoniker": "ClashofClans\\Protocol\\Commands\\Client\\LogicSwitchVillageStateCommand.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\CoS-10.322\\src\\ClashofClans\\Protocol\\Commands\\Client\\LogicSwitchVillageStateCommand.cs",
+              "RelativeToolTip": "ClashofClans\\Protocol\\Commands\\Client\\LogicSwitchVillageStateCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-26T09:31:02.721Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "LogicSetLayoutStateCommand.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\CoS-10.322\\src\\ClashofClans\\Protocol\\Commands\\Client\\LogicSetLayoutStateCommand.cs",
+              "RelativeDocumentMoniker": "ClashofClans\\Protocol\\Commands\\Client\\LogicSetLayoutStateCommand.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\CoS-10.322\\src\\ClashofClans\\Protocol\\Commands\\Client\\LogicSetLayoutStateCommand.cs",
+              "RelativeToolTip": "ClashofClans\\Protocol\\Commands\\Client\\LogicSetLayoutStateCommand.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAiwDcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-26T09:30:43.318Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "Alliance.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\CoS-10.322\\src\\ClashofClans\\Logic\\Clan\\Alliance.cs",
+              "RelativeDocumentMoniker": "ClashofClans\\Logic\\Clan\\Alliance.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\CoS-10.322\\src\\ClashofClans\\Logic\\Clan\\Alliance.cs",
+              "RelativeToolTip": "ClashofClans\\Logic\\Clan\\Alliance.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-26T09:30:10.252Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "Levels.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\CoS-10.322\\src\\ClashofClans\\Files\\Levels.cs",
+              "RelativeDocumentMoniker": "ClashofClans\\Files\\Levels.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\CoS-10.322\\src\\ClashofClans\\Files\\Levels.cs",
+              "RelativeToolTip": "ClashofClans\\Files\\Levels.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-26T09:30:00.423Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "AttackNpcMessage.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\CoS-10.322\\src\\ClashofClans\\Protocol\\Messages\\Client\\Home\\AttackNpcMessage.cs",
+              "RelativeDocumentMoniker": "ClashofClans\\Protocol\\Messages\\Client\\Home\\AttackNpcMessage.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\CoS-10.322\\src\\ClashofClans\\Protocol\\Messages\\Client\\Home\\AttackNpcMessage.cs",
+              "RelativeToolTip": "ClashofClans\\Protocol\\Messages\\Client\\Home\\AttackNpcMessage.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-26T09:29:25.948Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "VisitHomeMessage.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\CoS-10.322\\src\\ClashofClans\\Protocol\\Messages\\Client\\Home\\VisitHomeMessage.cs",
+              "RelativeDocumentMoniker": "ClashofClans\\Protocol\\Messages\\Client\\Home\\VisitHomeMessage.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\CoS-10.322\\src\\ClashofClans\\Protocol\\Messages\\Client\\Home\\VisitHomeMessage.cs",
+              "RelativeToolTip": "ClashofClans\\Protocol\\Messages\\Client\\Home\\VisitHomeMessage.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAA9wAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-26T09:29:21.27Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

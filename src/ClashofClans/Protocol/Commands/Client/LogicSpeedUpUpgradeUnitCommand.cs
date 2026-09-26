@@ -1,23 +1,30 @@
 ﻿using ClashofClans.Logic;
-using ClashofClans.Utilities.Netty;
 using DotNetty.Buffers;
 
 namespace ClashofClans.Protocol.Commands.Client
 {
-	class LogicSpeedUpUpgradeUnitCommand : LogicCommand
-	{
-		public LogicSpeedUpUpgradeUnitCommand(Device device, IByteBuffer buffer) : base(device, buffer)
-		{
-		}
+    public class LogicSpeedUpUpgradeUnitCommand : LogicCommand
+    {
+        public LogicSpeedUpUpgradeUnitCommand(Device device, IByteBuffer buffer) : base(device, buffer) { }
 
-		public override void Decode()
-		{
-			Reader.ReadInt();
-			Reader.ReadInt();
-			Reader.ReadInt();
-		}
-		public override void Process()
-		{
-		}
-	}
+        public int GameObjectId { get; set; }
+
+        public override void Decode()
+        {
+            GameObjectId = Reader.ReadInt();
+            base.Decode();
+        }
+
+        public override void Process()
+        {
+            var home = Device.Player.Home;
+            var building = home.GameObjectManager.GetBuildings().Find(x => x.Id == GameObjectId);
+            if (building == null) return;
+
+            var component = building.UnitUpgradeComponent;
+            if (component == null) return;
+
+            // TODO: implement SpeedUp saat UnitUpgradeComponent.Timer sudah aktif
+        }
+    }
 }

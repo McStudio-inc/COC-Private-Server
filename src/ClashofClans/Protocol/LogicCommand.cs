@@ -1,4 +1,5 @@
-﻿using ClashofClans.Logic;
+﻿// Location: ClashofClans.Protocol.LogicCommand.cs
+using ClashofClans.Logic;
 using DotNetty.Buffers;
 
 namespace ClashofClans.Protocol
@@ -20,7 +21,7 @@ namespace ClashofClans.Protocol
 
         public IByteBuffer Data { get; set; }
         public Device Device { get; set; }
-
+        public LogicCommandType CommandType { get; set; }
         public int Type { get; set; }
         public int Tick { get; set; }
         public IByteBuffer Reader { get; set; }
@@ -30,13 +31,9 @@ namespace ClashofClans.Protocol
             Tick = Reader.ReadInt();
         }
 
-        public virtual void Encode()
-        {
-        }
+        public virtual void Encode() { }
 
-        public virtual void Process()
-        {
-        }
+        public virtual void Process() { }
 
         public LogicCommand Handle()
         {

@@ -1,0 +1,21 @@
+[16:46:52.6640][INFO]  ->  Starting [16:46:52 - Windows]...
+[16:46:53.3778][INFO]  ->  Fingerprint [v9.256.12] loaded.
+[16:46:55.7903][INFO]  ->  14 Gamefile(s) loaded.
+[16:47:01.0199][INFO]  ->  Successfully loaded MySql with 0 player(s)
+[16:47:01.0462][INFO]  ->  Successfully loaded caches
+[16:47:01.0655][INFO]  ->  Press any key to shutdown the server.
+[16:47:01.7701][INFO]  ->  Listening on 0.0.0.0:9339. Let's play Clash of Clans!
+[16:50:36.7105][INFO]  ->  Starting [16:50:36 - Windows]...
+[16:50:37.1990][INFO]  ->  Fingerprint [v9.256.12] loaded.
+[16:50:37.7244][INFO]  ->  14 Gamefile(s) loaded.
+[16:50:38.6322][INFO]  ->  Successfully loaded MySql with 0 player(s)
+[16:50:38.6505][INFO]  ->  Successfully loaded caches
+[16:50:38.6759][INFO]  ->  Press any key to shutdown the server.
+[16:50:38.9510][INFO]  ->  Listening on 0.0.0.0:9339. Let's play Clash of Clans!
+[20:32:32.2586][INFO]  ->  Starting [20:32:32 - Windows]...
+[20:32:32.6371][INFO]  ->  Fingerprint [v9.256.12] loaded.
+[20:32:32.9930][INFO]  ->  14 Gamefile(s) loaded.
+[20:32:33.8146][INFO]  ->  Successfully loaded MySql with 1 player(s)
+[20:32:33.8309][INFO]  ->  Successfully loaded caches
+[20:32:33.8429][INFO]  ->  Press any key to shutdown the server.
+[20:32:34.0848][INFO]  ->  Listening on 0.0.0.0:9339. Let's play Clash of Clans!

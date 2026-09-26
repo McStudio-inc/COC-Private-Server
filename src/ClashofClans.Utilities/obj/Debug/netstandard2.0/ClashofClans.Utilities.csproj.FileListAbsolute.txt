@@ -1,0 +1,11 @@
+C:\Users\User\Documents\CoS-10.322\src\ClashofClans.Utilities\bin\Debug\netstandard2.0\ClashofClans.Utilities.deps.json
+C:\Users\User\Documents\CoS-10.322\src\ClashofClans.Utilities\bin\Debug\netstandard2.0\ClashofClans.Utilities.dll
+C:\Users\User\Documents\CoS-10.322\src\ClashofClans.Utilities\bin\Debug\netstandard2.0\ClashofClans.Utilities.pdb
+C:\Users\User\Documents\CoS-10.322\src\ClashofClans.Utilities\obj\Debug\netstandard2.0\ClashofClans.Utilities.csproj.AssemblyReference.cache
+C:\Users\User\Documents\CoS-10.322\src\ClashofClans.Utilities\obj\Debug\netstandard2.0\ClashofClans.Utilities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Documents\CoS-10.322\src\ClashofClans.Utilities\obj\Debug\netstandard2.0\ClashofClans.Utilities.AssemblyInfoInputs.cache
+C:\Users\User\Documents\CoS-10.322\src\ClashofClans.Utilities\obj\Debug\netstandard2.0\ClashofClans.Utilities.AssemblyInfo.cs
+C:\Users\User\Documents\CoS-10.322\src\ClashofClans.Utilities\obj\Debug\netstandard2.0\ClashofClans.Utilities.csproj.CoreCompileInputs.cache
+C:\Users\User\Documents\CoS-10.322\src\ClashofClans.Utilities\obj\Debug\netstandard2.0\ClashofClans.Utilities.sourcelink.json
+C:\Users\User\Documents\CoS-10.322\src\ClashofClans.Utilities\obj\Debug\netstandard2.0\ClashofClans.Utilities.dll
+C:\Users\User\Documents\CoS-10.322\src\ClashofClans.Utilities\obj\Debug\netstandard2.0\ClashofClans.Utilities.pdb

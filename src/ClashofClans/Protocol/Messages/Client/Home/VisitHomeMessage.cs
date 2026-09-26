@@ -20,8 +20,12 @@ namespace ClashofClans.Protocol.Messages.Client.Home
 		public override async void Process()
 		{
 			Player player = await Resources.Players.GetPlayerAsync(HomeId, false);
-
-			await new VisitedHomeDataMessage(Device)
+            if (player == null)
+            {
+                Logger.Log("Player is null on VisitHome", GetType(), Logger.ErrorLevel.Warning);
+                return;
+            }
+            await new VisitedHomeDataMessage(Device)
 			{
 				Player = player
 			}.SendAsync();

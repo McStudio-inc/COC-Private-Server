@@ -1,0 +1,8 @@
+{
+  "mysql_database": "cosdb",
+  "mysql_password": "",
+  "mysql_server": "127.0.0.1",
+  "mysql_user": "root",
+  "server_port": 9339,
+  "update_url": "https://github.com/astralsc/CoS-10.322"
+}

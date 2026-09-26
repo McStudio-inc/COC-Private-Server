@@ -1,8 +1,8 @@
-﻿using System;
+﻿// Location: ClashofClans.Protocol.Messages.Client.EndClientTurnMessage.cs
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using ClashofClans.Logic;
-using ClashofClans.Protocol.Messages.Server;
 using DotNetty.Buffers;
 
 namespace ClashofClans.Protocol.Messages.Client
@@ -45,35 +45,27 @@ namespace ClashofClans.Protocol.Messages.Client
             {
                 var type = Reader.ReadInt();
 
-                if (LogicCommandManager.Commands.ContainsKey(type))
+                var command = LogicCommandManager.CreateCommand(Device, Reader, type);
+
+                if (command != null)
                 {
                     try
                     {
-                        if (Activator.CreateInstance(LogicCommandManager.Commands[type], Device,
-                                Reader) is
-                            LogicCommand
-                            command)
-                        {
-                            command.Type = type;
-                            command.Decode();
-
-                            commands.Add(command);
-                        }
+                        command.Type = type;
+                        command.Decode();
+                        commands.Add(command);
                     }
-                    catch (Exception)
+                    catch (Exception ex)
                     {
-                        Logger.Log($"Failed to decode command {type}", GetType(), Logger.ErrorLevel.Error);
+                        Logger.Log($"Failed to decode command {type}: {ex.Message}", GetType(),
+                            Logger.ErrorLevel.Error);
                     }
                 }
                 else
                 {
-                    /*/await new LoginFailedMessage(Device)
-                    {
-                        Reason = $"Command {type} is unhandled."
-                    }.SendAsync();*/
-
-                    Logger.Log(
-                        $"Command {type} is unhandled.",
+                    var bytes = new byte[Reader.ReadableBytes];
+                    Reader.GetBytes(Reader.ReaderIndex, bytes);
+                    Logger.Log($"Command {type} is unhandled. Hex: {BitConverter.ToString(bytes)}",
                         GetType(), Logger.ErrorLevel.Warning);
                     return;
                 }
@@ -82,18 +74,19 @@ namespace ClashofClans.Protocol.Messages.Client
             Save = true;
 
             foreach (var command in commands.OrderBy(x => x.Tick))
+            {
                 try
                 {
                     command.Process();
-
-                    Logger.Log(
-                        $"Command {command.Type} ({command.GetType().Name}) - Tick: {command.Tick}",
+                    Logger.Log($"Command {command.Type} ({command.GetType().Name}) - Tick: {command.Tick}",
                         GetType(), Logger.ErrorLevel.Debug);
                 }
-                catch (Exception)
+                catch (Exception ex)
                 {
-                    Logger.Log($"Failed processing command {command.Type}", GetType(), Logger.ErrorLevel.Error);
+                    Logger.Log($"Failed processing command {command.Type}: {ex.Message}", GetType(),
+                        Logger.ErrorLevel.Error);
                 }
+            }
 
             home.Time.SubTick = SubTick;
         }

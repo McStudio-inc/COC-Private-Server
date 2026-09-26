@@ -23,6 +23,12 @@ namespace ClashofClans.Core.Network.Handlers
         {
             var buffer = (IByteBuffer) message;
             if (buffer == null) return;
+            if (buffer.ReadableBytes >= 2)
+            {
+                int packetId = buffer.GetShort(buffer.ReaderIndex);
+                Logger.Log($"Received packet ID: {packetId} from {((IPEndPoint)Channel.RemoteAddress).Address.MapToIPv4()}",
+                    GetType(), Logger.ErrorLevel.Debug);
+            }
 
             if (Throttler.CanProcess())
             {

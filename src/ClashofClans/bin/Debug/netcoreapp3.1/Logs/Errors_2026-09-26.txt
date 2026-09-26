@@ -1,0 +1,6 @@
+[17:31:04.2710][ERROR]  ->  System.Net.Sockets.SocketException (10053): An established connection was aborted by the software in your host machine.
+   at DotNetty.Transport.Channels.Sockets.SocketChannelAsyncOperation.Validate()
+   at DotNetty.Transport.Channels.Sockets.AbstractSocketByteChannel.SocketByteChannelUnsafe.FinishRead(SocketChannelAsyncOperation operation)
+[20:35:33.4876][ERROR]  ->  System.Net.Sockets.SocketException (10053): An established connection was aborted by the software in your host machine.
+   at DotNetty.Transport.Channels.Sockets.SocketChannelAsyncOperation.Validate()
+   at DotNetty.Transport.Channels.Sockets.AbstractSocketByteChannel.SocketByteChannelUnsafe.FinishRead(SocketChannelAsyncOperation operation)

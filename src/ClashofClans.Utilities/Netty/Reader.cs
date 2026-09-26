@@ -42,5 +42,11 @@ namespace ClashofClans.Utilities.Netty
 
             return ZlibStream.UncompressString(compressedBytes.Array);
         }
+        public static long ReadLong(this IByteBuffer byteBuffer)
+        {
+            var high = byteBuffer.ReadInt();
+            var low = byteBuffer.ReadInt();
+            return ((long)high << 32) | (uint)low;
+        }
     }
 }

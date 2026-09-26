@@ -1,22 +1,25 @@
 ﻿using ClashofClans.Logic;
-using ClashofClans.Utilities.Netty;
 using DotNetty.Buffers;
 
 namespace ClashofClans.Protocol.Commands.Client
 {
-	class LogicSpeedUpTrainingCommand : LogicCommand
-	{
-		public LogicSpeedUpTrainingCommand(Device device, IByteBuffer buffer) : base(device, buffer)
-		{
-		}
+    public class LogicSpeedUpTrainingCommand : LogicCommand
+    {
+        public LogicSpeedUpTrainingCommand(Device device, IByteBuffer buffer) : base(device, buffer) { }
 
-		public override void Decode()
-		{
-			Reader.ReadInt();
-			Reader.ReadInt();
-		}
-		public override void Process()
-		{
-		}
-	}
+        public int GameObjectId { get; set; }
+        public bool SpellProduction { get; set; }
+
+        public override void Decode()
+        {
+            GameObjectId = Reader.ReadInt();
+            SpellProduction = Reader.ReadBoolean();
+            base.Decode();
+        }
+
+        public override void Process()
+        {
+            // TODO: implement saat unit production queue system sudah ada
+        }
+    }
 }

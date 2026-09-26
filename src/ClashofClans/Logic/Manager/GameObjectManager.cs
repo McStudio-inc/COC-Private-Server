@@ -1,5 +1,6 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
+using ClashofClans.Logic.Manager.Items;
 using ClashofClans.Logic.Manager.Items.GameObjects;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
@@ -116,7 +117,22 @@ namespace ClashofClans.Logic.Manager
                 ? Buildings.Where(x => x.BuildingData.GetGlobalId() == data)
                 : Buildings2.Where(x => x.BuildingData.GetGlobalId() == data);
         }
+        /// <summary>
+        ///     Cari GameObject berdasarkan Id dari semua list
+        /// </summary>
+        public GameObject GetGameObjectById(int id)
+        {
+            GameObject result = null;
 
+            result = (GameObject)GetBuildings().Find(b => b.Id == id);
+            if (result != null) return result;
+
+            result = (GameObject)GetTraps().Find(t => t.Id == id);
+            if (result != null) return result;
+
+            result = (GameObject)GetDecos().Find(d => d.Id == id);
+            return result;
+        }
         /// <summary>
         ///     Forward the time of gameobjects in seconds
         /// </summary>
