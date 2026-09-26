@@ -7,11 +7,11 @@
 ![Version](https://img.shields.io/badge/CoC%20Version-10.322-orange?style=for-the-badge)
 ![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
 
+![screen](./Screens/game.png)
+
 > 📢 **Join our community!** For development updates, support, and discussions — join our **[Discord Server](#)**.
 
 ---
-
-![screen](./Screens/game.png)
 
 ## ✨ Features
 
